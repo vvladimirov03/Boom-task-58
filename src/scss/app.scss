@@ -19,11 +19,8 @@ html {
   background: $background;
 }
 
-.main {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10rem;
-  flex-flow: column;
+.navbar {
+  position: fixed;
+  top: 0px;
+  overflow: scroll;
 }
